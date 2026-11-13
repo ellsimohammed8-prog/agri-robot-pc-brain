@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment (local only — each PC creates its own)
+.venv/
+venv/
+
+# YOLO model file — downloads automatically on first run (~6 MB)
+*.pt
+
+# OS / editor files
+.DS_Store
+Thumbs.db

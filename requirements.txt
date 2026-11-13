@@ -1,0 +1,14 @@
+# PC Brain v0.1 — requirements (tested versions, 2026-11-13)
+# Install with:  pip install -r requirements.txt
+#
+# NOTE about torch (needed by ultralytics): on a PC WITHOUT a GPU,
+# install the small CPU-only torch FIRST, otherwise pip downloads the
+# big CUDA version (~540 MB) automatically:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+# On a PC WITH an NVIDIA GPU, just run:  pip install -r requirements.txt
+
+opencv-python==5.0.0.93
+ultralytics==8.4.211
+websockets==17.4
+numpy==2.5.4
